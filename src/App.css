@@ -1,0 +1,55 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:sans-serif;
+}
+.heading{
+  background-color: rgb(172, 52, 52);
+  text-align: center;
+  color: aliceblue;
+}
+ 
+h2{
+  margin: 20px;
+}
+form{
+  margin: 20px;
+}
+label{
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+input {
+  width: 200px;
+  height: 30px;
+  padding-left:10px ;
+  border-radius: 6px;
+}
+.containerform{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 17px;
+}
+button{
+  margin: 20px;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+button:hover{
+  background-color: rgb(240, 183, 173);
+}
+.containerlist{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(235, 110, 110);
+  margin-bottom: 10px;
+}
+.name{
+  margin-left: 2%;
+}
+.delete{
+  margin-right: 2%;
+}
